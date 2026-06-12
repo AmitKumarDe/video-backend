@@ -1,0 +1,23 @@
+{
+  "name": "video-backend",
+  "version": "1.0.0",
+  "description": "Youtube like backend design for learn backend",
+  "keywords": [
+    "javascript",
+    "backend",
+    "node",
+    "express",
+    "mongoose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "author": "Amit Kumar Dey",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
