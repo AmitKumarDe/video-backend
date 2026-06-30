@@ -3,7 +3,8 @@ import "dotenv/config";
 import connectDB from "./db/index.js";
 import { app } from "./app.js";
 
-console.log("URI:", process.env.MONGODB_URI);
+console.log("Access Token Secret:", process.env.ACCESS_TOKEN_SECRET);
+console.log("Refresh Token Secret", process.env.REFRESH_TOKEN_SECRET);
 
 connectDB()
   .then(() => {
